@@ -64,7 +64,7 @@ document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.
   
   function tombol(){Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
-  async function menuju(){window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
+  async function menuju(){window.location = "https://api.whatsapp.com/send/?phone=%2B6283165619029&text=" + pesanwhatsapp;}
 
   opsLclick=0;opsLcheck=0;
   document.getElementById("bq").onclick = function() {
